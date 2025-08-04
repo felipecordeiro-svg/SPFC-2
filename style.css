@@ -1,0 +1,84 @@
+table {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+body {
+  margin: 0;
+}
+
+.borda-tricolor{
+    height: 14px;
+}
+
+
+.red {
+    background-color: #c00;
+    padding: 3px;
+}
+
+.white {
+    background-color: #ffff;
+    padding: 1px;
+}
+
+.topo-borda {
+    background-color: rgb(27, 27, 27);
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(27, 27, 27);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.top-bar img {
+    height: 50px;
+}
+
+.MorumBis {
+  text-align: center;
+  color: #c00;
+  font-size: 40px;
+}
+
+.morumbis-1 {
+  text-align: right;
+}
+
+.text-1 {
+  text-align: left;
+}
+
